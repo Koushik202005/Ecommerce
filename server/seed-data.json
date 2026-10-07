@@ -1,0 +1,64 @@
+{
+  "store": {
+    "id": "store_blockhaus",
+    "slug": "blockhaus",
+    "name": "BLOCKHAUS.",
+    "description": "Everyday layers. Made for the bold.",
+    "currency": "USD",
+    "currencySymbol": "$",
+    "country": "US",
+    "timezone": "America/New_York",
+    "language": "en",
+    "contactEmail": "hello@blockhaus.example",
+    "contactPhone": "+1 (555) 010-2488",
+    "businessAddress": "Brooklyn, New York"
+  },
+  "domains": [{ "domain": "localhost", "primary": true }],
+  "branding": {
+    "logo": "",
+    "favicon": "",
+    "primaryColor": "#4259e8",
+    "secondaryColor": "#151515",
+    "accentColor": "#e5ff58",
+    "backgroundColor": "#f7f6f2",
+    "textColor": "#171717",
+    "mutedColor": "#75736d",
+    "borderColor": "#e1dfd9",
+    "fontFamily": "DM Sans",
+    "headingFont": "Barlow Condensed",
+    "headingStyle": "condensed",
+    "bodyStyle": "modern",
+    "borderRadius": 4,
+    "buttonStyle": "square",
+    "cardStyle": "editorial"
+  },
+  "settings": {
+    "homepage": { "announcement": "NEW SEASON · 25% OFF SELECT STYLES", "heroEyebrow": "NEW SEASON · 25% OFF SELECT STYLES", "heroTitle": "CASUAL\nFIT", "heroBody": "Everyday layers. Made for the bold.", "heroImageUrl": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=2200&q=90", "heroLinkText": "Shop the drop", "collectionEyebrow": "NEW COLLECTION", "collectionTitle": "WINTER\nWEAR", "collectionBody": "A fresh rotation for colder days. Made to move with you.", "collectionImageUrl": "https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=1600&q=90" },
+    "general": { "storeName": "BLOCKHAUS.", "slug": "blockhaus", "description": "Everyday layers. Made for the bold.", "currency": "USD", "currencySymbol": "$", "country": "US", "timezone": "America/New_York", "language": "en", "contactEmail": "hello@blockhaus.example", "contactPhone": "+1 (555) 010-2488", "businessAddress": "Brooklyn, New York" },
+    "domain": { "primaryDomain": "localhost", "customDomain": "", "subdomain": "blockhaus", "verificationStatus": "not_configured", "sslStatus": "not_configured" },
+    "payments": { "provider": "mock", "testMode": true, "displayName": "Preview checkout", "configured": false },
+    "shipping": { "freeShippingThreshold": 120, "flatRate": 8, "deliveryEstimate": "3–5 business days", "localPickup": false, "zones": [{ "name": "United States", "countries": ["US"], "rate": 8 }] },
+    "taxes": { "taxName": "Sales tax", "percentage": 0, "pricesIncludeTax": false, "enabled": false },
+    "email": { "senderName": "BLOCKHAUS.", "senderEmail": "orders@blockhaus.example", "replyTo": "hello@blockhaus.example", "provider": "not_configured" },
+    "seo": { "metaTitle": "BLOCKHAUS. — Everyday layers for the bold", "metaDescription": "Discover expressive essentials, relaxed fits and everyday layers from BLOCKHAUS.", "openGraphImage": "", "robots": "index,follow", "sitemapEnabled": true, "canonicalDomain": "" },
+    "social": { "instagram": "https://instagram.com/", "tiktok": "https://tiktok.com/", "facebook": "https://facebook.com/", "x": "https://x.com/" },
+    "policies": { "about": "Built for everyday movement. Designed to be worn your way.", "privacy": "We use customer information only to fulfill orders and improve the store experience.", "terms": "Orders are subject to availability and the policies published by this store.", "refund": "Returns are accepted within 14 days of delivery for unworn items.", "shipping": "Orders are packed with care and dispatched within 1–2 business days." }
+  },
+  "categories": [
+    { "id": "cat_new", "name": "New arrivals", "slug": "new-arrivals", "imageUrl": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=900&q=85", "sortOrder": 1 },
+    { "id": "cat_outerwear", "name": "Outerwear", "slug": "outerwear", "imageUrl": "https://images.unsplash.com/photo-1539533018447-63fcce2678e3?auto=format&fit=crop&w=900&q=85", "sortOrder": 2 },
+    { "id": "cat_tops", "name": "Tops & tees", "slug": "tops", "imageUrl": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=900&q=85", "sortOrder": 3 }
+  ],
+  "products": [
+    { "id": "prd_zip_hoodie", "categoryId": "cat_new", "name": "Block Zip Hoodie", "slug": "block-zip-hoodie", "sku": "BH-HD-001", "description": "A heavyweight layer with a relaxed, lived-in fit. Cut from soft brushed cotton for the days that run long.", "price": 79, "compareAt": 99, "imageUrl": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?auto=format&fit=crop&w=1000&q=85", "secondaryImageUrl": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?auto=format&fit=crop&w=1000&q=85", "badge": "BEST SELLER", "featured": true, "sizes": ["XS", "S", "M", "L", "XL"] },
+    { "id": "prd_oversized_tee", "categoryId": "cat_tops", "name": "Oversized Block T-Shirt", "slug": "oversized-block-t-shirt", "sku": "BH-TS-014", "description": "The tee you reach for first. Heavyweight cotton, a boxy silhouette and a clean screen-printed mark.", "price": 49, "compareAt": 69, "imageUrl": "https://images.unsplash.com/photo-1523398002811-999ca8dec234?auto=format&fit=crop&w=1000&q=85", "secondaryImageUrl": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=1000&q=85", "badge": "NEW", "featured": true, "sizes": ["XS", "S", "M", "L", "XL"] },
+    { "id": "prd_denim_jacket", "categoryId": "cat_outerwear", "name": "Utility Denim Jacket", "slug": "utility-denim-jacket", "sku": "BH-JK-006", "description": "A familiar shape, sharpened up. Roomy pockets, metal hardware and a little extra structure.", "price": 129, "compareAt": 159, "imageUrl": "https://images.unsplash.com/photo-1516257984-b1b4d707412e?auto=format&fit=crop&w=1000&q=85", "secondaryImageUrl": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=1000&q=85", "badge": "LOW STOCK", "featured": true, "sizes": ["S", "M", "L", "XL"] },
+    { "id": "prd_winter_blazer", "categoryId": "cat_outerwear", "name": "Olive Winter Blazer", "slug": "olive-winter-blazer", "sku": "BH-JK-012", "description": "Soft tailoring with a relaxed shoulder and a warm brushed finish. Made for layering.", "price": 149, "compareAt": 189, "imageUrl": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?auto=format&fit=crop&w=1000&q=85", "secondaryImageUrl": "https://images.unsplash.com/photo-1539533018447-63fcce2678e3?auto=format&fit=crop&w=1000&q=85", "badge": "", "featured": true, "sizes": ["S", "M", "L", "XL"] },
+    { "id": "prd_turtleneck", "categoryId": "cat_tops", "name": "Signature Turtleneck", "slug": "signature-turtleneck", "sku": "BH-KN-009", "description": "A fine-knit essential with an easy drape and just the right amount of warmth.", "price": 89, "compareAt": 119, "imageUrl": "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?auto=format&fit=crop&w=1000&q=85", "secondaryImageUrl": "https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=1000&q=85", "badge": "", "featured": true, "sizes": ["XS", "S", "M", "L", "XL"] },
+    { "id": "prd_puffer", "categoryId": "cat_outerwear", "name": "City Puffer Jacket", "slug": "city-puffer-jacket", "sku": "BH-JK-021", "description": "Lightweight warmth, generous pockets and a high collar that keeps the cold out.", "price": 179, "compareAt": 219, "imageUrl": "https://images.unsplash.com/photo-1544923246-77307dd654cb?auto=format&fit=crop&w=1000&q=85", "secondaryImageUrl": "https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=1000&q=85", "badge": "", "featured": false, "sizes": ["S", "M", "L", "XL"] }
+  ],
+  "banners": [
+    { "id": "bnr_hero", "kind": "hero", "eyebrow": "NEW SEASON · 25% OFF SELECT STYLES", "title": "CASUAL\nFIT", "body": "Everyday layers. Made for the bold.", "imageUrl": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=2200&q=90", "linkUrl": "#new-arrivals", "sortOrder": 1 },
+    { "id": "bnr_collection", "kind": "collection", "eyebrow": "NEW COLLECTION", "title": "WINTER\nWEAR", "body": "A fresh rotation for colder days. Made to move with you.", "imageUrl": "https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=1600&q=90", "linkUrl": "#featured", "sortOrder": 2 }
+  ]
+}
